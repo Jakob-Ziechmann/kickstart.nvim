@@ -7,9 +7,9 @@ augroup END
 
 function SetProjectBS1Setting()
   -- Add your project-specific settings here
-  vim.opt.tabstop = 8
-  vim.opt.softtabstop = 8
-  vim.opt.shiftwidth = 8
+  vim.opt.tabstop = 2
+  vim.opt.softtabstop = 2
+  vim.opt.shiftwidth = 2
   vim.opt.expandtab = false
   -- Add any other settings you want to apply
 end
