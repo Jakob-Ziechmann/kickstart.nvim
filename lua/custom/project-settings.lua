@@ -1,7 +1,7 @@
 vim.cmd([[
 augroup ProjectBS1
   autocmd!
-  autocmd BufEnter */bs1/*.c,*/bs1/*.cpp,*/bs1/*.h lua SetProjectBS1Setting()
+  autocmd BufEnter */bs1/*.c,*/bs1/*.cpp,*/bs1/*.h,*/bs1/*.cc lua SetProjectBS1Setting()
 augroup END
 ]])
 
